@@ -1,0 +1,117 @@
+/* Reset sederhana */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff8f0;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #ff8c00;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Navigasi */
+nav {
+  background-color: #ffb347;
+  text-align: center;
+  padding: 0.5rem 0;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/1/1f/Indonesian_food.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 5rem 1rem;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+}
+
+/* Menu */
+.menu {
+  padding: 3rem 1rem;
+  text-align: center;
+}
+.menu h2 {
+  color: #ff8c00;
+  margin-bottom: 2rem;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+.card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 300px;
+  transition: transform 0.3s;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+.card img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+.card h3 {
+  color: #ff8c00;
+  margin-top: 10px;
+}
+.card p {
+  padding: 0.5rem 1rem 1rem;
+}
+
+/* Tentang */
+.about {
+  background-color: #fff0e0;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+.about p {
+  max-width: 700px;
+  margin: auto;
+  font-size: 1.1rem;
+}
+
+/* Footer */
+footer {
+  background-color: #ff8c00;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+footer a {
+  color: #fffacd;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
